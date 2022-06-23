@@ -4,6 +4,10 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
+def read_data(path):
+    """Read the read data from csv."""
+
 # Read the sellers and buyers data
 sellers_corpus = pd.Series({'1':'2 a 15'})
 buyers_corpus  = pd.Series({'1':'2 a 10'})
