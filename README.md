@@ -52,10 +52,15 @@ Project Organization
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
-Portuguese Datasets
+Papers
+===================
+* (Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks)[https://arxiv.org/abs/1708.06025]
+
+Datasets
 ===================
 
 * Datasets em português - AiLab | UNB - [Link](https://forum.ailab.unb.br/t/datasets-em-portugues/25 ) 
+
 
 --------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
