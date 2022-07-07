@@ -54,7 +54,7 @@ Project Organization
 
 Papers
 ===================
-* (Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks)[https://arxiv.org/abs/1708.06025]
+* [Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks](https://arxiv.org/abs/1708.06025)
 
 Datasets
 ===================
