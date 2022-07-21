@@ -1,7 +1,7 @@
-Product Review Analyst
+Product Review Analytics
 ==============================
 
-Pos-doctorate researches projects.
+A pos-doctorate research project.
 
 Project Organization
 ------------
@@ -61,6 +61,9 @@ Datasets
 
 * Datasets em português - AiLab | UNB - [Link](https://forum.ailab.unb.br/t/datasets-em-portugues/25 ) 
 
+How-to
+===================
+* [Can we take of benefit of using transfer learning while training a word2vec models?](https://datascience.stackexchange.com/questions/10642/can-we-take-of-benefit-of-using-transfer-learning-while-training-a-word2vec-mode)
 
 --------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
