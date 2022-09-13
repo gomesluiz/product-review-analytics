@@ -54,7 +54,9 @@ Project Organization
 
 Papers
 ===================
+
 * [Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks](https://arxiv.org/abs/1708.06025)
+* [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/)
 
 Datasets
 ===================
@@ -64,6 +66,9 @@ Datasets
 How-to
 ===================
 * [Can we take of benefit of using transfer learning while training a word2vec models?](https://datascience.stackexchange.com/questions/10642/can-we-take-of-benefit-of-using-transfer-learning-while-training-a-word2vec-mode)
+* [Gensim – Vectorizing Text and Transformations](https://dzone.com/articles/gensim-vectorizing-text-and-transformations)
+* [Text Vectorization and Transformation Pipelines](https://www.oreilly.com/library/view/applied-text-analysis/9781491963036/ch04.html)
+  
 
 --------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
