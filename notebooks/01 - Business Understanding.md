@@ -3,14 +3,6 @@
 ## Research Questions
 
 1. Are feature extraction based on word embeddings more accurate than bag-of-words in sentence polarity prediction from product review?
-* Word embeddings based methods: word2vec, bert
-* Bag-of-words methods: tf and tf-idf
-* Datasets: buscape (Unbalanced)
-* Classes:Negative(-1), Neutral(0) and Positive(1)
-* Classifiers: KNN (Baseline)
-* Metrics:
-* KFold Cross Validation: 10x5
-* Hypothesis test:
 
 2. **Existe diferenças relevantes entre tipos de embeddings em português**
 
