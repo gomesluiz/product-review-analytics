@@ -12,12 +12,12 @@ dependencies:
   - brotli-bin=1.0.9=h5eee18b_7
   - brotlipy=0.7.0=py39h27cfd23_1003
   - ca-certificates=2022.07.19=h06a4308_0
-  - certifi=2022.9.14=py39h06a4308_0
+  - certifi=2022.9.24=py39h06a4308_0
   - cffi=1.15.1=py39h74dc2b5_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - click=8.0.4=py39h06a4308_0
   - colorama=0.4.4=pyhd3eb1b0_0
-  - conda=4.14.0=py39h06a4308_0
+  - conda=22.9.0=py39h06a4308_0
   - conda-content-trust=0.1.1=pyhd3eb1b0_0
   - conda-package-handling=1.8.1=py39h7f8727e_0
   - cryptography=37.0.1=py39h9ce1e76_0

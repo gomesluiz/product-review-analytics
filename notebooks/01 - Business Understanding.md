@@ -2,7 +2,7 @@
 
 ## Research Questions
 
-1. Are feature extraction based on word embeddings more accurate than bag-of-words in sentence polarity prediction from product review?
+1. Are feature extraction based on word embeddings more accurate than bag-of-words in sentence polarity prediction from product reviews?
 
 2. **Existe diferenças relevantes entre tipos de embeddings em português**
 
@@ -16,6 +16,7 @@
 
 7. **Emb. da usp, e o bertbaul***
 
+8. Qual o impacto do tamanho do vetor de features.
 ----
 
 Problema do Match 
