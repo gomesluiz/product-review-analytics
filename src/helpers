@@ -1,0 +1,65 @@
+"""Helpers module.
+
+"""
+import string
+from collections import defaultdict
+
+import gensim
+import nltk
+
+from sklearn.feature_extraction.text import CountVectorizer
+
+def tokenize(text):
+    """Tokenize a text.
+
+    Args:
+
+    Returns:
+
+    """
+    stem = nltk.stem.SnowballStemmer('english')
+    text = text.lower()
+
+    for token in nltk.word_tokenize(text):
+        if token in string.punctuation:
+            continue
+
+        yield stem.stem(token)
+
+
+def vectorize(doc) -> list:
+    """Vectorize the document using bag-of-word with NLTK.
+
+    """
+
+    features = defaultdict(int)
+    for token in tokenize(doc):
+        features[token] += 1
+
+    return features
+
+def vectorizee(doc) -> list:
+    """Vectorize the document using bag-of-word with Sklearn.
+
+    """
+
+    vectorizer = CountVectorizer(doc)
+    vectors = vectorizer.fit_transform(doc)
+
+    return vectors
+
+def vectorizeee(doc) -> list:
+    """
+    
+    """  
+
+
+
+if __name__ == '__main__':
+    corpus = [
+        'The elephant sneezed at the sight of potatoes.',
+        'Bats can see via echolation. See the bat sight sneeze!',
+        'Wondering, she opened the door to the studio.'
+    ]
+
+    vectors = vectorize(corpus)

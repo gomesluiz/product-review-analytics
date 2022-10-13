@@ -78,7 +78,6 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -91,4 +90,5 @@ target/
 .mypy_cache/
 
 # data folder
-data/
+data/embeedings/
+data/processed/
