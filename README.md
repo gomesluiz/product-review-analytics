@@ -54,11 +54,11 @@ Project Organization
 
 Papers
 ===================
+* [Natural language processing: state of the art, current trends and challenges](https://link.springer.com/content/pdf/10.1007/s11042-022-13428-4.pdf)
 * [Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks](https://arxiv.org/abs/1708.06025)
 
 Datasets
 ===================
-
 * Datasets em português - AiLab | UNB - [Link](https://forum.ailab.unb.br/t/datasets-em-portugues/25 ) 
 
 How-to
