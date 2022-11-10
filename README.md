@@ -57,6 +57,7 @@ Papers
 * [Natural language processing: state of the art, current trends and challenges](https://link.springer.com/content/pdf/10.1007/s11042-022-13428-4.pdf)
 * [Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks](https://arxiv.org/abs/1708.06025)
 * [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/)
+* [Adaptive Ranking-based Sample Selection for Weakly Supervised Class-imbalanced Text Classification](https://paperswithcode.com/paper/ars2-adaptive-ranking-based-sample-selection)
 
 Datasets
 ===================
