@@ -54,13 +54,13 @@ Project Organization
 
 Papers
 ===================
-
+* [Natural language processing: state of the art, current trends and challenges](https://link.springer.com/content/pdf/10.1007/s11042-022-13428-4.pdf)
 * [Portuguese Word Embeddings: Evaluating on Word Analogies and Natural Language Tasks](https://arxiv.org/abs/1708.06025)
 * [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/)
+* [Adaptive Ranking-based Sample Selection for Weakly Supervised Class-imbalanced Text Classification](https://paperswithcode.com/paper/ars2-adaptive-ranking-based-sample-selection)
 
 Datasets
 ===================
-
 * Datasets em português - AiLab | UNB - [Link](https://forum.ailab.unb.br/t/datasets-em-portugues/25 ) 
 
 How-to
@@ -69,6 +69,5 @@ How-to
 * [Gensim – Vectorizing Text and Transformations](https://dzone.com/articles/gensim-vectorizing-text-and-transformations)
 * [Text Vectorization and Transformation Pipelines](https://www.oreilly.com/library/view/applied-text-analysis/9781491963036/ch04.html)
   
-
 --------
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
