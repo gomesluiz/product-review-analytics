@@ -90,5 +90,5 @@ target/
 .mypy_cache/
 
 # data folder
-data/embeedings/
+data/embeddings/
 data/processed/

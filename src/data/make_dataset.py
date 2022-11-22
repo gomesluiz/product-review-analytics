@@ -1,8 +1,23 @@
 # -*- coding: utf-8 -*-
+
 import click
 import logging
+import pandas as pd
+
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
+
+def load_dataset(filepath):
+    """Get the data from csv file
+    
+    Args:
+        path(str): the file complete path. 
+
+    Returns:
+        A pandas dataframe.
+    """
+
+    return pd.read_csv(filepath)
 
 @click.command()
 @click.argument('input_filepath', type=click.Path(exists=True))
@@ -10,7 +25,11 @@ from dotenv import find_dotenv, load_dotenv
 def main(input_filepath, output_filepath):
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed).
-    """
+    """ 
+    for file in files:
+        
+
+
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')
 
