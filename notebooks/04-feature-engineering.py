@@ -213,9 +213,9 @@ wang2vec_skip_s50 = KeyedVectors.load_word2vec_format(
 # Load the pre-trainned word2vec embedding.
 logging.info("Load word2vec embeddings.")
 word2vec_cbow_s50 = KeyedVectors.load_word2vec_format(
-    '../data/embeddings/word2vec_cbow_s50/cbow_s50.txt')
+    '../data/embeddings/word2vec/cbow_s50.txt')
 word2vec_skip_s50 = KeyedVectors.load_word2vec_format(
-    '../data/embeddings/word2vec_skip_s50/skip_s50.txt')
+    '../data/embeddings/word2vec/skip_s50.txt')
 
 
 # %%
