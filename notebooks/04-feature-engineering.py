@@ -261,7 +261,7 @@ for name, model in zip(EMBEDDING_NAMES, embedding_models):
     reviews_test_processed = pd.concat([reviews_test_dataset.reset_index()[['original_index']], reviews_test_dtm.reset_index(
         drop=True), reviews_test_dataset.reset_index()[['polarity']]], axis=1, ignore_index=True)
     reviews_test_processed.to_pickle(
-        f"../data/processed/buscape_reviews_test_dataset_{name[0]_name[1]}.pkl")
+        f"../data/processed/buscape_reviews_test_dataset_{name[0]}_{name[1]}.pkl")
     print(
         f"The {name} vectorized test dataframe has {reviews_test_processed.shape[0]} rows and {reviews_test_processed.shape[1]} columns")
 
