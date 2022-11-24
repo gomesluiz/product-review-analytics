@@ -18,7 +18,7 @@ from nltk import word_tokenize
 nltk.download('stopwords')
 stopwords = nltk.corpus.stopwords.words('portuguese')
 
-%matplotlib inline
+# %matplotlib inline
 
 # %% [markdown]
 # When we getting started an Exploratory Data Analisys (EDA), we should answer the next questions:
